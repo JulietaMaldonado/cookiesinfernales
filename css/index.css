@@ -16,7 +16,7 @@ margin: 20px;
 h1 {
     font-size: 50px;
     font-family: "Baskervville", serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 nav{
     display: flex;
@@ -29,4 +29,20 @@ text-decoration: none;
 color: black;
 padding: 20px;
 font-family: "Baskervville", serif;
+}
+main{
+    background-color: #E2CCB1;
+    margin: none;
+    padding: 30px;
+}
+h2{
+    font-family: "Baskervville", serif;
+    font-weight: 600;
+}
+footer {
+display: flex;
+flex-direction: row;
+background-color: #F3DAB1;
+margin: none;
+padding: 20px;
 }
