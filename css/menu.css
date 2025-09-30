@@ -1,12 +1,14 @@
 body{
-    background-image: url(../img/fondo.jpg);
+    /*background-image: url(../img/fondo.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #EABC86;
 }
 header {
 display: flex;
 flex-direction: row;
 background-color: #F3DAB1;
+margin: none;
 }
 .logo {
 width: 80px;
@@ -16,17 +18,38 @@ margin: 20px;
 h1 {
     font-size: 50px;
     font-family: "Baskervville", serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 nav{
     display: flex;
     justify-content: right;
     align-items: center;
-    margin-left: 60%;
+    margin-left: 30%;
 }
 a {
 text-decoration: none;
 color: black;
 padding: 20px;
 font-family: "Baskervville", serif;
+font-weight: 600;
+}
+h2, h3, h4, p{
+    text-align: center;
+     font-family: "Baskervville", serif;
+}
+section{
+    padding: 20px;
+}
+.clasicas, .pizookies{
+    background-color: white;
+}
+.rellenas, .boxes{
+    color: white;
+}
+footer {
+display: flex;
+flex-direction: row;
+background-color: #F3DAB1;
+margin: none;
+padding: 20px;
 }
