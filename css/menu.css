@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     /*background-image: url(../img/fondo.jpg);*/
     background-repeat: no-repeat;
@@ -19,6 +23,7 @@ h1 {
     font-size: 50px;
     font-family: "Baskervville", serif;
     font-weight: 600;
+    margin-top: 1.5%;
 }
 nav{
     display: flex;
@@ -52,4 +57,18 @@ flex-direction: row;
 background-color: #F3DAB1;
 margin: none;
 padding: 20px;
+}
+h5{
+    font-size: 17px;
+    font-family: "Baskervville", serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.redesfooter{
+    margin-left: 50px;
+
+}
+.contactofooter{
+    margin-left: 130px;
+
 }
