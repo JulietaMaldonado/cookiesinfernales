@@ -199,9 +199,10 @@ text-align: center;
 h2{
     text-align: center;
 }
-.infoemprendimiento {
+  .infoemprendimiento {
     width: 80%;
-}
+    margin: 0 auto;
+  }
 p{
     font-size: 12px;
     text-align: center;
@@ -297,10 +298,6 @@ padding: 20px;
 align-items: center;
 }
 h5{
-    font-size: 17px;
-    font-family: "Baskervville", serif;
-    font-weight: 600;
-    padding-bottom: 15px;
     text-align: center;
 }
 iframe{

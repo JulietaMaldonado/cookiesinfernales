@@ -58,6 +58,10 @@ background-color: #F3DAB1;
 margin: none;
 padding: 20px;
 }
+iframe{
+    width: 700px;
+    height: 300px;
+}
 h5{
     font-size: 17px;
     font-family: "Baskervville", serif;
@@ -71,4 +75,65 @@ h5{
 .contactofooter{
     margin-left: 130px;
 
+}
+
+/*VERSION RESPONSIVE*/
+
+@media only screen and (320px <= width <= 768px) {
+header {
+display: flex;
+flex-direction: column;
+background-color: #F3DAB1;
+margin: 0px;
+width: 100%;
+}
+.logo {
+width: 80px;
+height: 80px;
+margin: 20px;
+align-self: center;
+}
+h1 {
+    font-size: 45px;
+    font-family: "Baskervville", serif;
+    font-weight: 600;
+    margin-top: 2.5%;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 30%;
+}
+a {
+text-align: center;
+}
+footer {
+display: flex;
+flex-direction: column;
+background-color: #F3DAB1;
+margin: none;
+padding: 20px;
+align-items: center;
+}
+h5{
+    font-size: 17px;
+    font-family: "Baskervville", serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-align: center;
+}
+iframe{
+    width: 90%;
+    height: 300px;
+}
+.redesfooter{
+    margin-top: 20px;
+    margin-left: 0;
+}
+.contactofooter{
+    margin-top: 20px;
+    margin-left: 0;
+}
 }
