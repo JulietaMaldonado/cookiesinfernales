@@ -178,12 +178,14 @@ width: 100%;
 width: 80px;
 height: 80px;
 margin: 20px;
+align-self: center;
 }
 h1 {
     font-size: 45px;
     font-family: "Baskervville", serif;
     font-weight: 600;
     margin-top: 2.5%;
+    text-align: center;
 }
 nav{
     display: flex;
@@ -191,28 +193,21 @@ nav{
     align-items: center;
     margin-left: 30%;
 }
-.quienessomos{
-    margin: none;
-    background-image: url("./../img/quienessomosfondo.png");
-    padding: 30px;
-    height:fit-content;
-    background-size:cover;
+a {
+text-align: center;
 }
 h2{
-    font-family: "Baskervville", serif;
-    font-weight: 600;
-    font-size: 36px;
-    margin: 30px;
+    text-align: center;
 }
 .infoemprendimiento {
-    width: 50%;
+    width: 80%;
 }
 p{
-    font-size: 18px;
+    font-size: 12px;
+    text-align: center;
 }
 .quienescookies {
-    width: 45%;
-    margin-left: 30px;
+    width: 80%;
 }
 .nuestrascookietitulo{
     text-align: center;
@@ -295,28 +290,29 @@ input{
 }
 footer {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 background-color: #F3DAB1;
 margin: none;
 padding: 20px;
+align-items: center;
 }
 h5{
     font-size: 17px;
     font-family: "Baskervville", serif;
     font-weight: 600;
     padding-bottom: 15px;
+    text-align: center;
 }
 iframe{
-    max-width: 700px;
-    min-width: 300;
+    width: 90%;
     height: 300px;
 }
 .redesfooter{
-    margin-left: 50px;
-
+    margin-top: 20px;
+    margin-left: 0;
 }
 .contactofooter{
-    margin-left: 130px;
-
+    margin-top: 20px;
+    margin-left: 0;
 }
 }
