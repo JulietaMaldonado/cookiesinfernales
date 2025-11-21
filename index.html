@@ -86,16 +86,16 @@
         </section>
         <section class="contacto" id="contacto">
             <h2 class="contactotitulo">Contacto</h2>
-           <form action="https://formspree.io/f/mnngdooo" method="POST">
+           <form  novalidate>
                 <label for="">Nombre y Apellido</label>
-                <input type="text" name="nombre" id="Nombre y Apellido">
+                <input type="text" name="nombre" id="nombreApellido">
                 <label for="">Mail</label>
-                <input type="email" name="email" id="Mail"> 
+                <input type="email" name="email" id="mail"> 
                 <label for="">Asunto</label>
-                <input type="text" name="asunto" id="Asunto"> 
+                <input type="text" name="asunto" id="asunto"> 
                 <label for="">Mensaje</label>
-                <input type="text" name="mensaje" id="Mensaje">
-                <button class="botonenviar" type="submit">Enviar</button>
+                <input type="text" name="mensaje" id="mensaje">
+                <button class="botonenviar" type="button" id="enviar">Enviar</button>
             </form>
         </section>
     </main>
@@ -120,5 +120,7 @@
             </ul>
         </section>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
