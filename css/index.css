@@ -138,6 +138,22 @@ input{
     width: 100px;
     align-self: center;
 }
+.mensajeerror{
+    color: red;
+    font-family: "Baskervville", serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.mensajeenviado{
+    color: darkgreen;
+    font-family: "Baskervville", serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
 footer {
 display: flex;
 flex-direction: row;

@@ -88,14 +88,18 @@
             <h2 class="contactotitulo">Contacto</h2>
            <form  novalidate>
                 <label for="">Nombre y Apellido</label>
+                <p id="errornombre" class="mensajeerror"></p>
                 <input type="text" name="nombre" id="nombreApellido">
                 <label for="">Mail</label>
+                <p id="errormail" class="mensajeerror"></p>
                 <input type="email" name="email" id="mail"> 
                 <label for="">Asunto</label>
                 <input type="text" name="asunto" id="asunto"> 
                 <label for="">Mensaje</label>
+                <p id="errormensaje" class="mensajeerror"></p>
                 <input type="text" name="mensaje" id="mensaje">
                 <button class="botonenviar" type="button" id="enviar">Enviar</button>
+                <p id="mensajenvi" class="mensajeenviado"></p>
             </form>
         </section>
     </main>
